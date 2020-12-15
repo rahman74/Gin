@@ -16,8 +16,8 @@ import (
 )
 
 const (
-	privKeyPath = "keys/app.rsa"
-	pubKeyPath  = "keys/app.rsa.pub"
+	privKeyPath = "keys/app.rsa" //openssl genrsa -out app.rsa keysize
+	pubKeyPath  = "keys/app.rsa.pub" //openssl rsa -in app.rsa > app.rsa.pub
 	accessToken = "level1"
 )
 
