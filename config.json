@@ -1,0 +1,19 @@
+{
+    "Server": {
+        "Port": 8001,
+        "Environment": "Local"
+    },
+    "JWT": {
+        "Issuer": "Test",
+        "ExpirationDurationInMinute": 15,
+        "ExpirationDurationVerifyInMinute": 2880,
+        "SignatureKey": ""
+      },
+    "DatabaseConfig": {
+        "Host": "localhost",
+        "Port": 5432,
+        "DbName": "postgres",
+        "Username": "postgres",
+        "Password": ""
+      }
+}
